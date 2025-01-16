@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PlanetShow</title>
+		<script src="../build/jquery-3.1.1.js"></script>
+		<script src="../build/three.js"></script>
+		<script src="../js/Detector.js"></script>
+		<script src="../js/Coordinates.js"></script>
+		<script src="../js/controls/OrbitControls.js"></script>
+		<script src="../js/controls/TrackballControls.js"></script>
+		<script src="../build/stats.min.js"></script>
+		<script src="../build/dat.gui.min.js"></script>
+    <style>
+        body{
+            /* set margin to 0 and overflow to hidden, to go fullscreen */
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body onload="main()">
+<!-- Div which will hold the Output -->
+<div id="WebGL-output"></div>
+  <script src="PlanetShow.js"></script>
+</body>
+</html>
